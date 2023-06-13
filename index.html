@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title> Hangman</title>
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <div>
+            <input onclick="generateWord()" type="Submit" value="Generate word">
+            <br>
+            <br>
+            <br>
+            <div id="word"></div>
+            <br>
+            <div id="wordToGuess"></div>
+            <br>
+            <br>
+            Guess next letter:
+            <input id="letter" type="text" maxlength="1">
+            <input onclick="guessNextLetter()" type="submit" value="Submit">
+            <p id="lives"> </p>
+        </div>
+    </body>
+</html>
